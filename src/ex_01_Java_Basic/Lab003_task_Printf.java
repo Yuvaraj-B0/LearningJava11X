@@ -15,13 +15,13 @@ public class Lab003_task_Printf {
         System.out.printf("Table of 9X8 = %d\n",table*8);
         System.out.printf("Table of 9X9 = %d\n",table*9);
         System.out.printf("Table of 9X10 = %d\n",table*10);
-        //this the task of today to print 9 table using printf and using for loop
 
+        //this the task of today to print 9 table using printf and using for loop
         System.out.println("\nThis done by using for loop for table 9");
         for(int a=1;a<=10;a++)
         {
             int temp=table*a;
-            System.out.printf("Table of 9X%d = %d\n",a,temp);
+            System.out.printf("Table of %dX%d = %d\n",table,a,temp);
         }
 
     }
