@@ -17,6 +17,10 @@ public class Lab005_task_grade {
                 :(st_score<=100)?"Your Grade for scoring "+st_score+" is A"
                 :"Your have enter score is "+st_score+" it's beyond 100 Please Enter Correct Score under 100";
         System.out.println(st_grade);
+        /* if your input is 89
+        Then output will like this
+        Your Grade for scoring 89 is B
+         */
         sc.close();
     }
 }
