@@ -10,7 +10,8 @@ public class Lab005_task_grade {
         System.out.println("Enter your score:");
         st_score=sc.nextInt();
         // Now Grading system works with nested ternary operator
-        String st_grade = (st_score<=59)?"Your Grade for scoring "+st_score+" is F"
+        String st_grade =(st_score<=0)?"Please Do Not Enter Negative Scores"
+                :(st_score<=59)?"Your Grade for scoring "+st_score+" is F"
                 :(st_score<=69)?"Your Grade for scoring "+st_score+" is D"
                 :(st_score<=79)?"Your Grade for scoring "+st_score+" is C"
                 :(st_score<=89)?"Your Grade for scoring "+st_score+" is B"
