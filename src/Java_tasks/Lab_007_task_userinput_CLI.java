@@ -1,4 +1,4 @@
-package ex_01_Java_Basic;
+package Java_tasks;
 
 public class Lab_007_task_userinput_CLI {
     public static void main(String[] args) {

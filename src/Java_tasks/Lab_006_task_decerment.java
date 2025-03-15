@@ -1,4 +1,4 @@
-package ex_01_Java_Basic;
+package Java_tasks;
 
 public class Lab_006_task_decerment {
     public static void main(String[] args) {

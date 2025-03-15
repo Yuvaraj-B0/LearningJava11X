@@ -1,4 +1,4 @@
-package ex_01_Java_Basic;
+package Java_tasks;
 
 public class Lab008_task_CLIandternary {
     public static void main(String[] args) {
