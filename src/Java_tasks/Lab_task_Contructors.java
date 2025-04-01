@@ -11,11 +11,11 @@ public static void main(String[] args) {
     System.out.println(P1.phone_no);
     System.out.println(P1.isMale);
 
-    person2 P2 = new person2("Rahul",32,"Jaipur","78456465",true);
+    person2 P2 = new person2("test1",32,"goa","78456465",true);
     P2.eat();
     P2.sleep();
     //P1.printDetails();
-    person2 P3 = new person2("Deepak",32,true);
+    person2 P3 = new person2("test2",32,true);
     P3.walk();
     P3.doHome();
     P3.printDetails();
@@ -30,9 +30,9 @@ class person2{
     boolean isMale;
 
     person2(){
-        name = "Rahul";
+        name = "test";
         age = 32;
-        address = "Jaipur";
+        address = "goa";
         phone_no = "897454656";
         isMale = true;
     }
