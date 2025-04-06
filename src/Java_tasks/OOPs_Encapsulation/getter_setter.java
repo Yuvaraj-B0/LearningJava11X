@@ -2,16 +2,16 @@ package Java_tasks.OOPs_Encapsulation;
 
 public class getter_setter {
 public static void main(String[] args) {
-    ATB a1 = new ATB("Java", 1, 10000);
+    ATB a1 = new ATB("Java", "Dave", 10000);
 //        System.out.println(a1.course);
     System.out.println(a1.getCourse());
-    System.out.println(a1.getTeachersCount());
+    System.out.println(a1.getname());
     System.out.println(a1.getCostOfCourse());
     a1.setCourse("Python");
-    a1.setTeachersCount(2);
+    a1.setname("Rava");
     System.out.println("----------");
     System.out.println(a1.getCourse());
-    System.out.println(a1.getTeachersCount());
+    System.out.println(a1.getname());
     System.out.println("----------");
     a1.setCostOfCourse(12000, true);
     System.out.println(a1.getCostOfCourse());
@@ -22,22 +22,22 @@ public static void main(String[] args) {
 class ATB {
 
     private String course;
-    private int teachersCount;
+    private String name;
     private float costOfCourse;
 
-    ATB(String course, int teachersCount, float costOfCourse) {
+    ATB(String course, String name, float costOfCourse) {
 
         this.course = course;
-        this.teachersCount = teachersCount;
+        this.name = name;
         this.costOfCourse = costOfCourse;
     }
 
-    public int getTeachersCount() {
-        return teachersCount;
+    public String getname() {
+        return name;
     }
 
-    public void setTeachersCount(int teachersCount) {
-        this.teachersCount = teachersCount;
+    public void setname(String name) {
+        this.name = name;
     }
 
     public String getCourse() {
